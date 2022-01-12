@@ -1,9 +1,9 @@
+//variables - let
+
 
 //No pueden iniciar con numeros o caracteres especiales, si con _
 // no pueden tener espacios
 // Se recomienda el uso de camelCase
-
-//variables - let
 
 let cliente = "Miguel"
 let precioDescuento = 220
