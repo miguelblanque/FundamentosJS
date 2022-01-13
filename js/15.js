@@ -1,4 +1,7 @@
-// Array Functions y Array Methods
+/** Array Functions y Array Methods
+ * 
+*  Para probar incluir en el alchivo indext.html el script -> <script src="js/15.js"></script>
+*/
 
 const tecnologias=['HTML','CSS','JavaScript', 'React', 'Node.js']
 
@@ -28,5 +31,5 @@ const nuevoArray =tecnologias.map(tech => {
 const nuevoArray2 =tecnologias.filter(tech => tech !== 'React')
 
 
-console.log(nuevoArray)
-console.log(nuevoArray2)
+console.log('Ejemplo map: ',nuevoArray)
+console.log('Ejemplo filter: ',nuevoArray2)

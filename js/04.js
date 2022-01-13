@@ -1,9 +1,12 @@
-// Objetos
+/**Objetos
+* 
+*  Para probar incluir en el alchivo indext.html el script -> <script src="js/04.js"></script>
+*/
 
-const producto={
-    nombre : "Tablet",
+    const producto={
+     nombre : "Tablet",
      precio: 300,
-      disponible: true
+     disponible: true
     }
 
       console.log(producto)
@@ -23,7 +26,7 @@ const producto={
 
       const authenticado=true
       const usuario= "Miguel"
-// Si se llaman igual se puede omitir la asignacion, si es diferente falla
+    // Si se llaman igual se puede omitir la asignacion, si es diferente falla
       const nuevoObjeto={
           authenticado ,
           usuario: usuario

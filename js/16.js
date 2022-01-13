@@ -1,4 +1,8 @@
-// Otros Array Methods útiles
+/* Otros Array Methods útiles
+ * 
+*  Para probar incluir en el alchivo indext.html el script -> <script src="js/16.js"></script>
+* 
+*/
 
 // Estos array methods no mutan el array original, para saber cuales mutan o no podemos consultar la pagina donde 
 //https://doesitmutate.xyz/
@@ -16,7 +20,7 @@ const nuevoArray2 =tecnologias.filter(tech => tech !== 'React')
 const resultado = tecnologias.includes('React') 
  console.log('Ejempo includes. Existe React dentro de tecnologias: ',resultado)
 
-// Some - devuelve si almenos 1 devuelve la condicion
+// Some - Si al Menos un elemento del array cumple devuelve True
 const resultado2 = numeros.some( numero => numero > 15)
 
 console.log('Ejemplo some. Existe algun numero > 15 en numeros: ',resultado2)
@@ -26,12 +30,12 @@ const resultado3 = numeros.find( numero => numero > 15)
 
 console.log('Ejemplo find. Devuelve el primer elemento que cumple la condicion -> numero > 15 en numeros: ',resultado3)
 
-//Every - Retorna true o false si todos   cumplen la condicion
+//Every - Si todos los elementos del array cumplen la condición
 const resultado4 = numeros.every( numero => numero > 15)
 
 console.log('Ejemplo every. Retorna true o false si todos  cumplen la condicion -> numero > 15 en numeros: ',resultado4)
 
-// Reduce - Acumula en el total, indicando donde empieza
+// Reduce - Ejecuta una función que va a ir acumulando un total. Acumula en el total, indicando donde empieza por parametro
 const resultado5 = numeros.reduce( (total,numero) => numero + total,0)
 
 console.log('Ejemplo reduce. Para carritos, acumula en el total: ',resultado5)
