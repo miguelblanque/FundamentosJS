@@ -66,8 +66,8 @@ Contenido
 
 30. Fetch API y Promises
 
-31. Fetch API con Async Await
+30. Fetch API con Async Await
 
-32. Múltiples Async / Await y Performance
+31. Múltiples Async / Await y Performance
 
-33. Template Strings
+32. Template Strings
